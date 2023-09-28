@@ -1,0 +1,33 @@
+create table emp_detail
+(
+    id int,
+    name varchar2(10),
+    salary number(5)
+);
+alter table emp_detail add address varchar(20);
+desc emp_detail;
+alter table emp_detail drop column address;--use column keyword
+alter table emp_detail modify id varchar(30);
+alter table emp_detail rename column id to roll_no;--use column keyword
+alter table emp_detail rename to emp11; --remane use along with to 
+desc emp11;
+
+
+TABLE EMP11Result Set 12
+Column	Null?	Type
+ROLL_NO	 - 	VARCHAR2(30)
+NAME	 - 	VARCHAR2(10)
+SALARY	 - 	NUMBER(5,0)
+Download CSV
+3 rows selected.
+
+
+alter table emp11 add primary key(roll_no);
+
+ABLE EMP11Result Set 13
+Column	Null?	Type
+ROLL_NO	NOT NULL	VARCHAR2(30)
+NAME	 - 	VARCHAR2(10)
+SALARY	 - 	NUMBER(5,0)
+Download CSV
+3 rows selected.
