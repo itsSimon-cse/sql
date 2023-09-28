@@ -1,0 +1,19 @@
+create table
+
+create table emp_detail
+(
+    id int,
+    name varchar2(10),
+    salary number(5)
+);
+
+desc emp;
+
+
+TABLE EMPResult Set 2
+Column	Null?	Type
+ID	 - 	NUMBER
+NAME	 - 	VARCHAR2(10)
+SALARY	 - 	NUMBER(5,0)
+Download CSV
+3 rows selected.
